@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Layouts & Responsive Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header with Flexbox Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">LayoutMaster</div>
+                <ul class="nav-links">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Modern CSS Layouts Made Easy</h1>
+                <p>Learn how to create responsive web designs with Flexbox and CSS Grid</p>
+                <a href="#features" class="btn">Explore Features</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section with CSS Grid -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Key Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3>Responsive Design</h3>
+                    <p>Create layouts that adapt beautifully to all screen sizes with media queries and flexible units.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h3>Flexbox Layouts</h3>
+                    <p>Build flexible one-dimensional layouts that efficiently distribute space and align content.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔲</div>
+                    <h3>CSS Grid</h3>
+                    <p>Create complex two-dimensional layouts with precise control over rows and columns.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section with Flexbox -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Users Say</h2>
+            <div class="testimonial-container">
+                <div class="testimonial">
+                    <p>"This tutorial completely changed how I approach CSS layouts. The Flexbox and Grid examples are incredibly helpful!"</p>
+                    <div class="testimonial-author">- Sarah Njeri</div>
+                </div>
+                <div class="testimonial">
+                    <p>"I've been struggling with responsive design for years. This guide made it all click finally!"</p>
+                    <div class="testimonial-author">- Michael Kimemya</div>
+                </div>
+                <div class="testimonial">
+                    <p>"The clear examples and practical approach helped me improve my workflow immediately."</p>
+                    <div class="testimonial-author">- Emma Mwanza</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section with CSS Grid -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">Pricing Plans</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Basic</h3>
+                    </div>
+                    <div class="pricing-body">
+                        <div class="price">Ksh1000<span>/month</span></div>
+                        <ul class="pricing-features">
+                            <li>Flexbox tutorials</li>
+                            <li>CSS Grid basics</li>
+                            <li>Responsive principles</li>
+                            <li>Email support</li>
+                        </ul>
+                        <a href="#" class="btn">Get Started</a>
+                    </div>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-header">
+                        <h3>Pro</h3>
+                    </div>
+                    <div class="pricing-body">
+                        <div class="price">Ksh.2000<span>/month</span></div>
+                        <ul class="pricing-features">
+                            <li>All Basic features</li>
+                            <li>Advanced layouts</li>
+                            <li>Real-world projects</li>
+                            <li>Priority support</li>
+                        </ul>
+                        <a href="#" class="btn">Get Started</a>
+                    </div>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Enterprise</h3>
+                    </div>
+                    <div class="pricing-body">
+                        <div class="price">Ksh.1500<span>/month</span></div>
+                        <ul class="pricing-features">
+                            <li>All Pro features</li>
+                            <li>Team collaboration</li>
+                            <li>Custom components</li>
+                            <li>Dedicated support</li>
+                        </ul>
+                        <a href="#" class="btn">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section with Flexbox Form -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>Have questions about CSS layouts? Reach out to our team for more information.</p>
+                    <div class="contact-details">
+                        <p>📧 Clvesta321@gmail.com</p>
+                        <p>📞 +254 799 722 684</p>
+                        
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder="Your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer with CSS Grid -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>LayoutMaster</h3>
+                    <p>Master the art of CSS layouts with our comprehensive tutorials and resources.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#">Facebook</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; Sylvester. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile navigation toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+        
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
